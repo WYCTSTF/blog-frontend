@@ -1,0 +1,35 @@
+:root {
+  --color-background: #f0f0f0;
+  --color-text: #333;
+  --color-primary: #258fb8;
+  --color-border: #ddd;
+  --width-sidebar: 280px;
+  --width-content: 900px;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 0 20px;
+}
